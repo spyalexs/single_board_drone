@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator= NewDesignator=M1
+Change Net Name : Old Net Name=Net_GND_R New Net Name=NetM1_GND_R
+Change Net Name : Old Net Name=Net_VM New Net Name=NetM1_VM
+Change Net Name : Old Net Name=V+_Bat New Net Name=V_Bat
+Added Pin To Net: NetName=NetM1_GND Pin=M1-GND
+Added Net: Name=NetM1_GND
+Added Rule: Name=Schematic Supply Nets_4
