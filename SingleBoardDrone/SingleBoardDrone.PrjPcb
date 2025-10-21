@@ -332,6 +332,10 @@ Variation1=Designator=R6|UniqueId=\SUJHDQJU|Kind=1|AlternatePart=
 Variation2=Designator=C54|UniqueId=\HNBOCWQK|Kind=1|AlternatePart=
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SingleBoardDrone\Design Rule Check - SingleBoardDrone_.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=..\*.*
 IncludeSubFolders=1
