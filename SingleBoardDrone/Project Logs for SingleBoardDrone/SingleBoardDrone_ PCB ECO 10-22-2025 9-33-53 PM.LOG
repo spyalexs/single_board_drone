@@ -1,0 +1,27 @@
+Added Component: Designator=*20(Test_Point)
+Added Component: Designator=*21(Test_Point)
+Added Component: Designator=*22(Test_Point)
+Added Component: Designator=*23(Test_Point)
+Added Component: Designator=*24(Test_Point)
+Added Component: Designator=*25(Test_Point)
+Added Component: Designator=*26(Test_Point)
+Added Component: Designator=*27(Test_Point)
+Added Pin To Net: NetName=+3V3 Pin=*20-TP1
+Added Pin To Net: NetName=V_Boost Pin=*21-TP1
+Added Pin To Net: NetName=V_Bat Pin=*22-TP1
+Added Pin To Net: NetName=V_Bat Pin=*23-TP1
+Added Pin To Net: NetName=V+ USB Pin=*25-TP1
+Added Pin To Net: NetName=V_Bus Pin=*26-TP1
+Added Pin To Net: NetName=+1V8 Pin=*27-TP1
+Added Pin To Net: NetName=Net*24_TP1 Pin=*24-TP1
+Added Pin To Net: NetName=Net*24_TP1 Pin=R14-2
+Added Pin To Net: NetName=Net*24_TP1 Pin=R15-1
+Added Net: Name=Net*24_TP1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *20 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *21 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *22 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *23 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *24 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *25 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *26 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Pow Member=Component *27 Component_1

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\spyal\Documents\SingleBoardDrone\SingleBoardDrone\SingleBoardDrone_.PcbDoc
-Date     : 10/21/2025
-Time     : 7:55:47 PM
+Date     : 10/22/2025
+Time     : 10:06:26 PM
 
 Processing Rule : Clearance Constraint (Gap=3mil) (InComponent('U11')),(All)
 Rule Violations :0
@@ -9,16 +9,7 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
    Violation between Clearance Constraint: (0.009mil < 5mil) Between Split Plane  (+3V3) on 3V3 And Split Plane  (No Net) on 3V3 
    Violation between Clearance Constraint: (0.009mil < 5mil) Between Split Plane  (GND) on GND And Split Plane  (No Net) on GND 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly And Track (3103.888mil,9569.638mil)(3146.112mil,9569.638mil) on Top Assembly 
-Rule Violations :11
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -41,13 +32,16 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((ObjectKind = 'Via') and InNet('GND')and (ViaDiameter = '21'))
-Rule Violations :0
-
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InComponent('J1'))
 Rule Violations :0
 
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((ObjectKind = 'Via') and InNet('GND')and (ViaDiameter = '21'))
+Rule Violations :0
+
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=150mil) (IsPad)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=500mil) ((InNet('NetM1_GND_R') OR InNet('NetM2_GND_R') OR InNet('NetM3_GND_R') OR InNet('NetM4_GND_R') OR InNet('NetM5_GND_R') OR InNet('NetM6_GND_R') OR InNet('NetM7_GND_R') OR InNet('NetM8_GND_R')))
@@ -60,8 +54,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (InComponent('U11')),(In
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=5mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.662mil < 5mil) Between Pad C65-1(6465mil,6725mil) on Bottom Layer And Pad C65-2(6465mil,6755.709mil) on Bottom Layer [Bottom Solder] Mask Sliver [0.662mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=7mil) (IsPad),(All)
 Rule Violations :0
@@ -70,13 +63,12 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (3314.614mil,3579.614mil)(3314.614mil,3630.386mil) on Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 13
+Violations Detected : 2
 Waived Violations : 0
 Time Elapsed        : 00:00:01

@@ -1,0 +1,36 @@
+Added Component: Designator=*28(Test_Point)
+Added Component: Designator=*29(Test_Point)
+Added Component: Designator=*30(Test_Point)
+Added Component: Designator=*31(Test_Point)
+Added Component: Designator=*32(Test_Point)
+Added Component: Designator=*33(Test_Point)
+Added Component: Designator=*34(Test_Point)
+Added Component: Designator=*35(Test_Point)
+Added Component: Designator=*36(Test_Point)
+Added Component: Designator=*37(Test_Point)
+Added Component: Designator=*38(Test_Point)
+Added Pin To Net: NetName=+1V8 Pin=*28-TP1
+Added Pin To Net: NetName=GND Pin=*29-TP1
+Added Pin To Net: NetName=NetC43_1 Pin=*30-TP1
+Added Pin To Net: NetName=GND Pin=*31-TP1
+Added Pin To Net: NetName=GND Pin=*32-TP1
+Added Pin To Net: NetName=NetJ8_1 Pin=*33-TP1
+Added Pin To Net: NetName=+3V3 Pin=*34-TP1
+Added Pin To Net: NetName=GND Pin=*35-TP1
+Added Pin To Net: NetName=GND Pin=*36-TP1
+Added Pin To Net: NetName=VCC_RF Pin=*37-TP1
+Added Pin To Net: NetName=NetC61_1 Pin=*38-TP1
+Change Net Name : Old Net Name=NetC43_1 New Net Name=Net*30_TP1
+Change Net Name : Old Net Name=NetC61_1 New Net Name=Net*38_TP1
+Change Net Name : Old Net Name=NetJ8_1 New Net Name=Net*33_TP1
+Added Member To Class: ClassName=SingleBoardDrone_Sens Member=Component *28 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Sens Member=Component *29 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Sens Member=Component *30 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Sens Member=Component *31 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *32 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *33 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *34 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *35 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *36 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *37 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component *38 Component_1

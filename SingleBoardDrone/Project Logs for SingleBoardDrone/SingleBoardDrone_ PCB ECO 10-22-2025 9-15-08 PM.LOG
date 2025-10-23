@@ -1,0 +1,73 @@
+Added Component: Designator=*1(Test_Point)
+Added Component: Designator=*2(Test_Point)
+Added Component: Designator=*3(Test_Point)
+Added Component: Designator=*4(Test_Point)
+Added Component: Designator=*5(Test_Point)
+Added Component: Designator=*6(Test_Point)
+Added Component: Designator=*7(Test_Point)
+Added Component: Designator=*8(Test_Point)
+Added Component: Designator=*9(Test_Point)
+Added Component: Designator=*10(Test_Point)
+Added Component: Designator=*11(Test_Point)
+Added Component: Designator=*12(Test_Point)
+Added Component: Designator=*13(Test_Point)
+Added Component: Designator=*14(Test_Point)
+Added Component: Designator=*15(Test_Point)
+Added Component: Designator=*16(Test_Point)
+Added Component: Designator=*17(Test_Point)
+Added Component: Designator=*18(Test_Point)
+Added Component: Designator=*19(Test_Point)
+Added Component: Designator=*(Test_Point)
+Added Pin To Net: NetName=V_Bus Pin=*1-TP1
+Added Pin To Net: NetName=NetC29_2 Pin=*3-TP1
+Added Pin To Net: NetName=NetC32_2 Pin=*5-TP1
+Added Pin To Net: NetName=+3V3 Pin=*8-TP1
+Added Pin To Net: NetName=+3V3 Pin=*9-TP1
+Added Pin To Net: NetName=V_Bus Pin=*10-TP1
+Added Pin To Net: NetName=V_Bus Pin=*11-TP1
+Added Pin To Net: NetName=NetC78_2 Pin=*13-TP1
+Added Pin To Net: NetName=NetC81_2 Pin=*15-TP1
+Added Pin To Net: NetName=+3V3 Pin=*18-TP1
+Added Pin To Net: NetName=+3V3 Pin=*19-TP1
+Added Pin To Net: NetName=V_Bus Pin=*-TP1
+Change Net Name : Old Net Name=NetC29_2 New Net Name=Net*3_TP1
+Change Net Name : Old Net Name=NetC32_2 New Net Name=Net*5_TP1
+Change Net Name : Old Net Name=NetC78_2 New Net Name=Net*13_TP1
+Change Net Name : Old Net Name=NetC81_2 New Net Name=Net*15_TP1
+Added Pin To Net: NetName=Net*2_TP1 Pin=*2-TP1
+Added Pin To Net: NetName=Net*2_TP1 Pin=M1-VM
+Added Pin To Net: NetName=Net*2_TP1 Pin=U6-2
+Added Net: Name=Net*2_TP1
+Added Pin To Net: NetName=Net*4_TP1 Pin=*4-TP1
+Added Pin To Net: NetName=Net*4_TP1 Pin=M3-VM
+Added Pin To Net: NetName=Net*4_TP1 Pin=U8-2
+Added Net: Name=Net*4_TP1
+Added Pin To Net: NetName=Net*12_TP1 Pin=*12-TP1
+Added Pin To Net: NetName=Net*12_TP1 Pin=M7-VM
+Added Pin To Net: NetName=Net*12_TP1 Pin=U19-2
+Added Net: Name=Net*12_TP1
+Added Pin To Net: NetName=Net*14_TP1 Pin=*14-TP1
+Added Pin To Net: NetName=Net*14_TP1 Pin=M5-VM
+Added Pin To Net: NetName=Net*14_TP1 Pin=U17-2
+Added Net: Name=Net*14_TP1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *1 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *2 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *3 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *4 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *5 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *6 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *7 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *8 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *9 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *10 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *11 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *12 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *13 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *14 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *15 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *16 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *17 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *18 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component *19 Component_1
+Added Member To Class: ClassName=SingleBoardDrone_Act Member=Component * Component_1
+Added Member To Class: ClassName=SingleBoardDrone_RF Member=Component AE1 CGGBP.25.2.A.02

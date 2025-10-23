@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=Net*6_TP1 Pin=*6-TP1
+Added Pin To Net: NetName=Net*6_TP1 Pin=U1-12
+Added Pin To Net: NetName=Net*6_TP1 Pin=U6-5
+Added Net: Name=Net*6_TP1
+Added Pin To Net: NetName=Net*7_TP1 Pin=*7-TP1
+Added Pin To Net: NetName=Net*7_TP1 Pin=U1-16
+Added Pin To Net: NetName=Net*7_TP1 Pin=U8-5
+Added Net: Name=Net*7_TP1
+Added Pin To Net: NetName=Net*16_TP1 Pin=*16-TP1
+Added Pin To Net: NetName=Net*16_TP1 Pin=U1-27
+Added Pin To Net: NetName=Net*16_TP1 Pin=U19-5
+Added Net: Name=Net*16_TP1
+Added Pin To Net: NetName=Net*17_TP1 Pin=*17-TP1
+Added Pin To Net: NetName=Net*17_TP1 Pin=U1-18
+Added Pin To Net: NetName=Net*17_TP1 Pin=U17-5
+Added Net: Name=Net*17_TP1
