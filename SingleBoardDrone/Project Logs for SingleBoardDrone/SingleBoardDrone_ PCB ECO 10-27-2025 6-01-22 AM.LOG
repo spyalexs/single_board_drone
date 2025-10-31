@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC71_1 Pin=L8-1
+Removed Pin From Net: NetName=NetC75_2 Pin=L8-2
+Added Component: Designator=L8(WE-MK_0402_L1W0.5H0.5)
+Add component (AddParameter): Name = "Ambient Temperature Range High"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ambient Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "500µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "2.2nH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "120013758"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "500µm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC71_1 Pin=L8-1
+Added Pin To Net: NetName=NetC75_2 Pin=L8-2

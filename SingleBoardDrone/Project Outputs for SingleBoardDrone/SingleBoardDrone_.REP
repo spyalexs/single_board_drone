@@ -3,7 +3,7 @@ FileName = SingleBoardDrone_.GBR
 AutoAperture = True
 *************************************************************
 Generating : Bottom Paste
-      File : SingleBoardDrone__Paste_Bot.gbr
+      File : SingleBoardDrone_.GBP
 
     Adding Layer      : Bottom Paste
 
@@ -13,23 +13,24 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D20
-    D21
-    D25
-    D26
-    D48
-    D82
-    D168
-    D169
-    D170
-    D173
-    D174
-    D177
+    D17
+    D19
+    D22
+    D23
+    D46
+    D62
+    D84
+    D213
+    D214
+    D215
+    D218
+    D219
+    D221
 *************************************************************
 
 *************************************************************
 Generating : Top Paste
-      File : SingleBoardDrone__Paste_Top.gbr
+      File : SingleBoardDrone_.GTP
 
     Adding Layer      : Top Paste
 
@@ -110,11 +111,12 @@ Used DCodes :
     D84
     D85
     D86
+    D87
 *************************************************************
 
 *************************************************************
 Generating : Bottom Solder
-      File : SingleBoardDrone__Soldermask_Bot.gbr
+      File : SingleBoardDrone_.GBS
 
     Adding Layer      : Bottom Solder
 
@@ -124,16 +126,14 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D20
-    D21
-    D25
-    D26
-    D48
-    D82
-    D93
-    D116
-    D117
-    D118
+    D19
+    D22
+    D23
+    D46
+    D62
+    D84
+    D92
+    D109
     D119
     D120
     D121
@@ -151,17 +151,21 @@ Used DCodes :
     D133
     D134
     D135
-    D168
-    D169
-    D171
-    D173
-    D174
-    D176
+    D136
+    D137
+    D138
+    D139
+    D213
+    D214
+    D217
+    D218
+    D219
+    D220
 *************************************************************
 
 *************************************************************
 Generating : Top Solder
-      File : SingleBoardDrone__Soldermask_Top.gbr
+      File : SingleBoardDrone_.GTS
 
     Adding Layer      : Top Solder
 
@@ -171,55 +175,53 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D19
     D20
     D21
     D22
     D23
-    D24
     D25
     D26
+    D27
     D29
     D30
     D31
     D32
     D33
     D34
+    D35
     D36
     D37
-    D38
     D39
-    D40
-    D42
+    D41
     D43
+    D44
     D45
     D46
     D47
-    D48
     D49
+    D50
     D51
     D52
     D53
-    D54
-    D55
-    D60
+    D58
+    D59
     D62
+    D63
     D64
+    D65
     D66
     D67
-    D68
     D72
-    D73
-    D74
-    D75
     D76
     D77
     D78
+    D79
     D80
     D81
-    D82
     D83
     D84
-    D86
+    D85
     D87
     D88
     D89
@@ -269,11 +271,15 @@ Used DCodes :
     D133
     D134
     D135
+    D136
+    D137
+    D138
+    D139
 *************************************************************
 
 *************************************************************
 Generating : Bottom Overlay
-      File : SingleBoardDrone__Legend_Bot.gbr
+      File : SingleBoardDrone_.GBO
 
     Adding Layer      : Bottom Overlay
 
@@ -284,12 +290,12 @@ Used DCodes :
     D12
     D13
     D15
-    D178
+    D222
 *************************************************************
 
 *************************************************************
 Generating : Top Overlay
-      File : SingleBoardDrone__Legend_Top.gbr
+      File : SingleBoardDrone_.GTO
 
     Adding Layer      : Top Overlay
 
@@ -305,7 +311,7 @@ Used DCodes :
 
 *************************************************************
 Generating : Bottom Layer
-      File : SingleBoardDrone__Copper_Signal_Bot.gbr
+      File : SingleBoardDrone_.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -314,16 +320,14 @@ Generating : Bottom Layer
 
 Used DCodes :
     D15
-    D20
-    D21
-    D25
-    D26
-    D48
-    D82
-    D93
-    D117
-    D118
-    D119
+    D17
+    D19
+    D22
+    D23
+    D46
+    D62
+    D84
+    D109
     D120
     D121
     D122
@@ -335,28 +339,63 @@ Used DCodes :
     D128
     D129
     D130
-    D136
-    D137
-    D139
+    D131
+    D132
+    D133
+    D134
     D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D168
-    D169
-    D170
-    D171
-    D172
-    D173
-    D174
-    D175
+    D149
+    D160
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+    D219
+*************************************************************
+
+*************************************************************
+Generating : 3V3
+      File : SingleBoardDrone_.GP2
+
+    Adding Layer      : 3V3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D191
+    D192
+    D194
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
+    D211
 *************************************************************
 
 *************************************************************
 Generating : Signal 5
-      File : SingleBoardDrone__Copper_Signal_2.gbr
+      File : SingleBoardDrone_.G2
 
     Adding Layer      : Signal 5
 
@@ -366,9 +405,6 @@ Generating : Signal 5
 Used DCodes :
     D14
     D15
-    D117
-    D118
-    D119
     D120
     D121
     D122
@@ -379,79 +415,23 @@ Used DCodes :
     D128
     D129
     D130
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-*************************************************************
-
-*************************************************************
-Generating : GND
-      File : SingleBoardDrone__Copper_Plane_2.gbr
-
-    Adding Layer      : GND
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D147
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-*************************************************************
-
-*************************************************************
-Generating : 3V3
-      File : SingleBoardDrone__Copper_Plane_1.gbr
-
-    Adding Layer      : 3V3
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D147
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
+    D131
+    D132
+    D133
+    D134
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D208
+    D210
 *************************************************************
 
 *************************************************************
 Generating : Signal 2
-      File : SingleBoardDrone__Copper_Signal_1.gbr
+      File : SingleBoardDrone_.G1
 
     Adding Layer      : Signal 2
 
@@ -459,11 +439,8 @@ Generating : Signal 2
 
 
 Used DCodes :
-    D12
+    D10
     D15
-    D117
-    D118
-    D119
     D120
     D121
     D122
@@ -474,20 +451,55 @@ Used DCodes :
     D128
     D129
     D130
-    D136
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
+    D131
+    D132
+    D133
+    D134
+    D160
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D208
+    D210
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : SingleBoardDrone_.GP1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D191
+    D192
+    D193
+    D194
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
 *************************************************************
 
 *************************************************************
 Generating : Top Layer
-      File : SingleBoardDrone__Copper_Signal_Top.gbr
+      File : SingleBoardDrone_.GTL
 
     Adding Layer      : Top Layer
 
@@ -495,7 +507,6 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D12
     D14
     D15
     D17
@@ -568,14 +579,12 @@ Used DCodes :
     D84
     D85
     D86
-    D93
-    D100
+    D87
+    D99
+    D101
     D102
-    D103
-    D113
-    D117
-    D118
-    D119
+    D109
+    D116
     D120
     D121
     D122
@@ -587,10 +596,10 @@ Used DCodes :
     D128
     D129
     D130
-    D136
-    D137
-    D138
-    D139
+    D131
+    D132
+    D133
+    D134
     D140
     D141
     D142
@@ -598,14 +607,58 @@ Used DCodes :
     D144
     D145
     D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
 *************************************************************
 
 *************************************************************
 Generating : Profile
-      File : SingleBoardDrone__Profile.gbr
+      File : SingleBoardDrone_.GM
 
 
 Used DCodes :
-    D179
+    D223
 *************************************************************
 
