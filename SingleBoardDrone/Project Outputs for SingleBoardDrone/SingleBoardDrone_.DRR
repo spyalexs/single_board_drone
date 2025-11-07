@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SingleBoardDrone_.PcbDoc   11/2/2025  7:32:15 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SingleBoardDrone_-RoundHoles.TXT
+ASCII SlotHoles File : SingleBoardDrone_-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.381mm (15mil)                                           Round             205       PTH        1875.43mm (73.84inch)
+T2      0.4mm (16mil)                                             Round             16        PTH        13.25mm (0.52inch)
+T3      0.508mm (20mil)                                           Round             229       PTH        1737.40mm (68.40inch)
+T4      0.7mm (28mil)                                             Slot              4         PTH        42.44mm (1.67inch)
+T5      0.711mm (28mil)                                           Round             128       PTH        573.67mm (22.59inch)
+T6      0.8mm (31mil)                                             Round             6         PTH        130.40mm (5.13inch)
+T7      0.9mm (35mil)                                             Round             29        PTH        854.54mm (33.64inch)
+T8      1mm (39mil)                                               Round             12        PTH        370.09mm (14.57inch)
+T9      1.194mm (47mil)                                           Round             1         PTH        0.00mm (0.00inch)
+T10     3.81mm (150mil)                                           Round             28        PTH        447.85mm (17.63inch)
+T11     8.8mm (346mil)                                            Round             8         PTH        823.73mm (32.43inch)
+T12     1.1mm (43mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              667
+
+Total Processing Time (hh:mm:ss) : 00:00:01

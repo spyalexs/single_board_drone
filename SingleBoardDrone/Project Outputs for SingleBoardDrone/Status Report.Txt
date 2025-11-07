@@ -1,24 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [SingleBoardDrone.PrjPcb]
-   Generated File[SingleBoardDrone_.GTO]
-   Generated File[SingleBoardDrone_.GTP]
-   Generated File[SingleBoardDrone_.GTS]
-   Generated File[SingleBoardDrone_.GTL]
-   Generated File[SingleBoardDrone_.GP1]
-   Generated File[SingleBoardDrone_.G1]
-   Generated File[SingleBoardDrone_.G2]
-   Generated File[SingleBoardDrone_.GP2]
-   Generated File[SingleBoardDrone_.GBL]
-   Generated File[SingleBoardDrone_.GBS]
-   Generated File[SingleBoardDrone_.GBP]
-   Generated File[SingleBoardDrone_.GBO]
-   Generated File[SingleBoardDrone_.GM]
-   Generated File[SingleBoardDrone_.EXTREP]
-   Generated File[SingleBoardDrone_.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SingleBoardDrone.PrjPcb]
+   Generated File[SingleBoardDrone_-RoundHoles.TXT]
+   Generated File[SingleBoardDrone_-SlotHoles.TXT]
+   Generated File[SingleBoardDrone_.LDP]
+   Generated File[SingleBoardDrone_.DRR]
 
 
-Files Generated   : 15
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 2:28:44 AM On 11/1/2025
+Finished Output Generation At 7:32:16 PM On 11/2/2025
